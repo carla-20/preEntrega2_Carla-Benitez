@@ -40,6 +40,72 @@ body{
 }
 /* Nosotros */
 
+h3, p{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    background: black;
+    width: 250px;
+    height: 400px;
+    margin: 15px;
+    border-radius: 15px; 
+    filter: grayscale(100%);
+}
+
+.cardImagen{
+    background-color: white;
+    height: 340px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    /* background-position: center; */
+
+}
+
+.img1{
+    background-image: url(../imgenes/productor-general.png);  
+}
+
+.img2{
+    background-image: url(../imgenes/productor-tecnico.png);
+}
+
+.img3{
+    background-image: url(../imgenes/coordinadora.png);
+}
+
+.card h4,h5{
+    /* padding: 0px; */
+    text-align: center;
+    color: white;
+}
+
+.cardButton{
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+    display: block;
+    text-align: center;
+    margin: 10px 60px;
+    border: 2px solid white;
+    border-radius: 15px;
+
+}
+
+.card:hover{
+    filter: grayscale(0%);
+}
+   
+
 /* Eventos */
 
 .eventos img{
@@ -52,7 +118,7 @@ body{
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-    grid-gap: 32px;
+    grid-gap: 50px;
 }
 
 
@@ -145,7 +211,7 @@ body{
     /* margin-top: 70px; */
     padding: 50px;
     
-}
+} 
 
 /* .d-grid{
     margin-left: 310px;
