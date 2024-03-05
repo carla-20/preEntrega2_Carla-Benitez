@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@500&display=swap');
+*{
+    font-family: "Anta", sans-serif;
+}
 body{
     background-color: #333;
 }
@@ -18,6 +23,11 @@ body{
     color: white !important;
 }
 
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+}
+
 /* .nav-link:hover{
     color: gray !important;
 } */
@@ -32,13 +42,17 @@ body{
 .bg-img-3{
     background-image: url(../imgenes/FAV2.jpg);
 }
+.bg-img-4{
+    background-image: url(../imgenes/synthetic8.jpg);
+}
 .carousel-imagen {
     height: 100vh;
     background-size: cover;
     background-position: center;
-
 }
+
 /* Nosotros */
+
 
 h3, p{
     color: white;
@@ -46,16 +60,16 @@ h3, p{
 }
 
 .container{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .card{
     background: black;
-    width: 250px;
-    height: 400px;
+    width: 225px;
+    height: 375px;
     margin: 15px;
     border-radius: 15px; 
     filter: grayscale(100%);
@@ -67,9 +81,8 @@ h3, p{
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
-    /* background-position: center; */
-
-}
+    /* background-position: center; */ 
+} 
 
 .img1{
     background-image: url(../imgenes/productor-general.png);  
@@ -95,7 +108,7 @@ h3, p{
     padding: 5px 5px;
     display: block;
     text-align: center;
-    margin: 10px 60px;
+    margin: 10px 45px;
     border: 2px solid white;
     border-radius: 15px;
 
@@ -104,15 +117,21 @@ h3, p{
 .card:hover{
     filter: grayscale(0%);
 }
-   
+
+.nosDer{
+    padding: 30px;
+}
+
 
 /* Eventos */
+
 
 .eventos img{
     border: 3px solid beige;
     width: 100%;
     height: auto;
 }
+
 
 .eventos{
     padding: 50px;
@@ -203,6 +222,7 @@ h3, p{
 } */
 
 .textoContacto{
+    /* margin-top: 40px; */
     padding: 50px;
     color: white;
 }
