@@ -1,0 +1,88 @@
+$color1: black;
+$color2: white;
+$color3: #333;
+$color4: blueviolet;
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@500&display=swap');
+
+*{
+    font-family: "Anta", sans-serif;
+}
+body{
+    background-color: $color3;
+}
+
+.navbar {
+    background-color: $color1;
+  }
+  
+  .navbar-brand {
+    color: $color4 !important;
+  
+    img {
+      height: 45px;
+    }
+  }
+  
+  .nav-link {
+    color: $color2 !important;
+  }
+  
+  .navbar-collapse {
+    display: flex;
+    justify-content: end;
+  }
+
+  .bg-img-1 {
+    background-image: url(../imgenes/synthetic3.jpg);
+  }
+  
+  .bg-img-2 {
+    background-image: url(../imgenes/flashback2.JPG);
+  }
+  
+  .bg-img-3 {
+    background-image: url(../imgenes/FAV2.jpg);
+  }
+  
+  .bg-img-4 {
+    background-image: url(../imgenes/synthetic8.jpg);
+  }
+  
+  .carousel-imagen {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+@import "nosotros";
+@import "eventos";
+@import "galeria";
+@import "contacto";
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+  }
+  
+  .redes {
+    margin-top: 5px;
+  
+    a {
+      color: white;
+      text-decoration: none;
+  
+      &:hover {
+        color: gray;
+      }
+  
+      i {
+        font-size: 20px;
+        letter-spacing: 20px;
+      }
+    }
+  }
+
+  @import "mediaQueries";
