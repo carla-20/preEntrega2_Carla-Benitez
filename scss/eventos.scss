@@ -1,7 +1,8 @@
 /* Eventos */
+$colorBeige: beige;
 .eventos {
     img {
-      border: 3px solid beige;
+      border: 3px solid $colorBeige;
       width: 100%;
       height: auto;
     }

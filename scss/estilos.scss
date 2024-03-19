@@ -1,23 +1,32 @@
-$color1: black;
-$color2: white;
-$color3: #333;
-$color4: blueviolet;
+$colorNegro: black;
+$colorBlanco: white;
+$colorGris: #333;
+$colorVioleta: blueviolet;
 
 @import url('https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@500&display=swap');
 
 *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Anta", sans-serif;
+
 }
 body{
-    background-color: $color3;
+    background-color: $colorGris;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
 }
 
 .navbar {
-    background-color: $color1;
+    background-color: $colorNegro;
   }
   
   .navbar-brand {
-    color: $color4 !important;
+
+    color: $colorVioleta !important;
   
     img {
       height: 45px;
@@ -25,7 +34,7 @@ body{
   }
   
   .nav-link {
-    color: $color2 !important;
+    color: $colorBlanco !important;
   }
   
   .navbar-collapse {
@@ -62,16 +71,17 @@ body{
 
 footer {
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: $colorNegro;
+    color: $colorBlanco;
     padding: 10px;
+    margin-top: auto;
   }
   
   .redes {
     margin-top: 5px;
   
     a {
-      color: white;
+      color: $colorBlanco ;
       text-decoration: none;
   
       &:hover {

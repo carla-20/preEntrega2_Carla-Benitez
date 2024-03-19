@@ -1,69 +1,17 @@
-/* Nosotros */
-h3, p {
-  color: white;
-  text-align: center;
-}
+/* Error: Undefined variable.
+ *    ,
+ * 58 |     color: $color2;
+ *    |            ^^^^^^^
+ *    '
+ *   scss\nosotros.scss 58:12  root stylesheet */
 
-.container {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: black;
-  width: 225px;
-  height: 375px;
-  margin: 15px;
-  border-radius: 15px;
-  filter: grayscale(100%);
-}
-
-.cardImagen {
-  background-color: white;
-  height: 340px;
-  margin-bottom: 15px;
-  background-size: cover;
-  border-radius: 15px 15px 0 0;
-  /* background-position: center; */
-}
-
-.img1 {
-  background-image: url(../imgenes/productor-general.png);
-}
-
-.img2 {
-  background-image: url(../imgenes/productor-tecnico.png);
-}
-
-.img3 {
-  background-image: url(../imgenes/coordinadora.png);
-}
-
-.card h4, h5 {
-  /* padding: 0px; */
-  text-align: center;
-  color: white;
-}
-
-.cardButton {
-  background-color: black;
-  color: white;
-  padding: 5px 5px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
   display: block;
-  text-align: center;
-  margin: 10px 45px;
-  border: 2px solid white;
-  border-radius: 15px;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 58 \2502      color: $color2;\d\a    \2502             ^^^^^^^\a    \2575 \a   scss\\nosotros.scss 58:12  root stylesheet";
 }
-
-.card:hover {
-  filter: grayscale(0%);
-}
-
-.nosDer {
-  padding: 30px;
-}
-
-/*# sourceMappingURL=nosotros.css.map */
