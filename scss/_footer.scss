@@ -1,26 +1,26 @@
 //footer
 
 footer {
-    text-align: center;
-    @include colores;
-    padding: 10px;
-    margin-top: auto;
-  }
-  
-  .redes {
-    margin-top: 5px;
-  
-    a {
-      color: $colorBlanco ;
-      text-decoration: none;
-  
-      &:hover {
-        color: gray;
-      }
-  
-      i {
-        font-size: 20px;
-        letter-spacing: 20px;
-      }
+  text-align: center;
+  @include colores;
+  padding: 5px;
+  margin-top: auto;
+}
+
+.redes {
+  margin-top: 5px;
+
+  a {
+    color: $colorBlanco;
+    text-decoration: none;
+
+    &:hover {
+      color: gray;
+    }
+
+    i {
+      font-size: 20px;
+      letter-spacing: 20px;
     }
   }
+}
