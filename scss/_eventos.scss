@@ -24,7 +24,7 @@ $colorBeige: beige;
     justify-content: center;
     border: 4px solid $colorBeige;
     border-radius: 15px;  
-    flex-direction: column;
+    //flex-direction: column;
 }
 
 .contenedorBg1{
@@ -35,7 +35,6 @@ $colorBeige: beige;
 }
 .contenedorBg3{
     background-image: linear-gradient(to bottom, #1772a2, #0090b6, #00aaa4, #00c06e, #75cd05);
-    //background-image: linear-gradient(to bottom, #1772a2, #0098bd, #00bbae, #00d877, #a8eb12);
 }
 
 .imagenEvento img{
@@ -53,7 +52,7 @@ $colorBeige: beige;
     display: flex;
     justify-content: center;
     // flex-direction: row;
-     font-size: 24px;
+    font-size: 24px;
 //     //margin: 40px;
 //     //max-width: 450px;
      margin-top: 7%;
