@@ -5,6 +5,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(8, 300px);
   }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -12,6 +13,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 300px);
   }
+
 }
 
 @media only screen and (min-width: 1024px) {
@@ -92,4 +94,6 @@
     grid-row: 7/8;
     background-position: 0% 65%;
   }
+
+  
 }
