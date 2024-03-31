@@ -1,5 +1,10 @@
 //footer
 
+@mixin colores {
+  background-color: $colorNegro;
+  color: $colorBlanco;
+}
+
 footer {
   text-align: center;
   @include colores;

@@ -1,0 +1,30 @@
+//Header
+
+.navbar {
+  background-color: $colorNegro;
+}
+
+.navbar-brand {
+  color: $colorVioleta !important;
+
+  img {
+    height: 45px;
+  }
+}
+
+.nav-link {
+  color: $colorBlanco !important;
+
+  &:hover {
+    //color: #f54020 !important;
+    background-color: rgb(78, 75, 75) !important;
+    //color: rgb(88, 8, 179) !important;
+    scale: 1.2;
+    transition: scale 2s;
+  }
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: end;
+}

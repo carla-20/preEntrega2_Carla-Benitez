@@ -1,84 +1,8 @@
-$colorNegro: black;
-$colorBlanco: white;
-$colorGris: #333;
-$colorVioleta: blueviolet;
-
+@import "variables";
 @import url("https://fonts.googleapis.com/css2?family=Anta&family=Oswald:wght@500&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Anta", sans-serif;
-}
-body {
-  // background-color: $colorGris;
-  background-image: radial-gradient(circle, #111214, #1c1e1e, #272929, #333433, #40403f);
-  //background-image: radial-gradient(circle, #16181b, #222628, #313535, #424443, #535452);
-  //-- background-image: radial-gradient(circle, #4b484a, #434042, #3b393a, #333133, #2b2a2b, #252627, #202122, #1c1d1d, #181a1a, #141716, #0f1313, #090f0e);
-  //background-image: radial-gradient(circle, #4b484a, #434043, #3a393b, #323134, #2a2a2d, #252628, #202124, #1b1d1f, #171a1b, #131718, #0e1313, #090f0e);
-  //background-image: radial-gradient(circle, #7c7278, #6c656b, #5c575e, #4d4b50, #3f3e43, #35363b, #2c2f32, #24272a, #1e2224, #181d1e, #121818, #0a1211);
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-.navbar {
-  background-color: $colorNegro;
-}
-
-.navbar-brand {
-  color: $colorVioleta !important;
-
-  img {
-    height: 45px;
-  }
-}
-
-.nav-link {
-  color: $colorBlanco !important;
-
-  &:hover {
-    //color: #f54020 !important;
-    background-color: rgb(78, 75, 75) !important;
-    //color: rgb(88, 8, 179) !important;
-    scale: 1.2;
-    transition: scale 2s;
-  }
-}
-
-.navbar-collapse {
-  display: flex;
-  justify-content: end;
-}
-
-.bg-img-1 {
-  background-image: url(../imgenes/synthetic3.jpg);
-}
-
-.bg-img-2 {
-  background-image: url(../imgenes/flashback2.JPG);
-}
-
-.bg-img-3 {
-  background-image: url(../imgenes/FAV2.jpg);
-}
-
-.bg-img-4 {
-  background-image: url(../imgenes/synthetic8.jpg);
-}
-
-.carousel-imagen {
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-}
-
-@mixin colores {
-  background-color: $colorNegro;
-  color: $colorBlanco;
-}
-
+@import "reset";
+@import "header";
+@import "home";
 @import "nosotros";
 @import "eventos";
 @import "galeria";

@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anta", sans-serif;
+  }
+  body {
+    background-image: radial-gradient(circle, #111214, #1c1e1e, #272929, #333433, #40403f);
+    //-- background-image: radial-gradient(circle, #4b484a, #434042, #3b393a, #333133, #2b2a2b, #252627, #202122, #1c1d1d, #181a1a, #141716, #0f1313, #090f0e);   
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }

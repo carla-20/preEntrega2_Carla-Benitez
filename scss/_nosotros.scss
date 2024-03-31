@@ -1,5 +1,10 @@
 /* Nosotros */
 
+@mixin colores {
+  background-color: $colorNegro;
+  color: $colorBlanco;
+}
+
 h3,
 p {
   color: $colorBlanco;
